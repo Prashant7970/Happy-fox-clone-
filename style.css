@@ -1,0 +1,278 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #f4f6f6;
+    font-family: hero-new, sans-serif;
+}
+
+/*upper navigation bar*/
+.navUp>div,
+.navUp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navUp>div>a {
+    padding: 20px 30px;
+
+    text-decoration: none;
+    color: gray;
+
+}
+
+.navUp>div>a>button {
+    border: none;
+    background-color: #f4f6f6;
+}
+
+/*lower navbar*/
+.navDown {
+
+
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navDown>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navDown>div>a {
+    padding: 10px 30px;
+
+    text-decoration: none;
+    color: gray;
+
+}
+
+.navDown>div>a>button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    background-color: tomato;
+    color: white;
+    font-size: large;
+    border: none;
+}
+
+.navDown>div>a>img {
+    width: 120px;
+
+}
+
+
+/* top section with heading,p and button also include video img*/
+.parentTopBox {
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+    text-align: center;
+}
+
+.parentTopBox>h1 {
+    font-size: 48px;
+    font-family: monospace;
+
+}
+
+.parentTopBox>p {
+    color: #555555;
+    font-size: 30px 0px;
+    margin: 40px;
+}
+
+.parentTopBox>div>input {
+    padding: 20px 22px;
+    font-size: large;
+    border-radius: 6px 0px 0px 6px;
+    border: 3px solid tomato;
+    background-color: #ffffff;
+    width: 60%;
+}
+
+.parentTopBox>div>button {
+    background-color: #f16631;
+    color: white;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    padding: 20px;
+    font-size: large;
+}
+
+.demobtn {
+    display: flex;
+    justify-content: center;
+}
+
+.videoplayer {
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.videoplayer img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/*div for icon h2 p and a button with anchor tag*/
+.imgBottom{
+    text-align: center;
+  margin:40px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 0px;
+
+}
+.imgBottom>h2{
+    margin: 20px 0px;
+    font-size: 32px;
+}
+.imgBottom>p{
+    color: #555555;
+    margin-bottom: 40px;
+}
+.imgBottom>p>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.imgBottom>a>button{
+    padding: 10px 50px;
+    background-color: #ffffff;
+    font-size: 18px;
+    border-radius: 9px;
+}
+/*trusties*/
+.trusties{
+    margin: -40px 0px;
+    text-align: center;
+padding: 60px 0px;
+background-color: #f2f2f2;
+}
+.trusty-Icon{
+    margin: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.trusty-Icon>img:nth-child(1),
+.trusty-Icon>img:nth-child(5){
+    width: 150px;
+    height: 28.5px;
+}
+/*customer support section*/
+.slider{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 80px 0px;
+}
+.slider>h2{
+  margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: lighter;
+}
+.slider>h4{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.slider>p{
+    color: #6d717e;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* media query for navbar */
+@media all and (min-width:581px) and (max-width:1200px) {
+
+    #nav p {
+        display: none;
+    }
+
+    .navDown,
+    .navUp {
+        justify-content: space-around;
+    }
+
+    /* media query for top section*/
+    .parentTopBox {
+        width: 80%;
+
+    }
+    .demobtn{
+        width: 70%;
+        margin: auto;
+    }
+     /*customer support section*/
+    .slider{
+       
+        width: 80%;
+       
+    }
+
+}
+
+@media all and (min-width:0px) and (max-width:580px) {
+    #nav p {
+        display: none;
+    }
+
+    .navDown,
+    .navUp {
+        justify-content: space-around;
+    }
+
+    /* media query for top section*/
+    .parentTopBox {
+        width: auto;
+        text-align: center;
+
+    }
+
+    .parentTopBox>h1 {
+        font-size: 30px;
+    }
+
+    .demobtn {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+
+    }
+
+    .parentTopBox>div>input {
+
+
+        border-radius: 6px;
+
+
+        width: auto;
+    }
+
+    .parentTopBox>div>button {
+
+        border-radius: 6px;
+        width: 100%;
+
+
+    }
+    /*customer support section*/
+    .slider{
+       
+        width: 100%;
+       
+    }
+}
