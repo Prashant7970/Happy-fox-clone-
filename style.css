@@ -7,13 +7,23 @@ body {
     background-color: #f4f6f6;
     font-family: hero-new, sans-serif;
 }
+.navDown .sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+
+
+}
 
 /*upper navigation bar*/
 .navUp>div,
 .navUp {
+   
     display: flex;
     justify-content: space-between;
 }
+
 
 .navUp>div>a {
     padding: 20px 30px;
@@ -29,8 +39,9 @@ body {
 }
 
 /*lower navbar*/
-.navDown {
 
+.navDown {
+   
 
     background-color: #ffffff;
     display: flex;
