@@ -1,0 +1,86 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #212529;
+    font-family: hero-new, sans-serif;
+   
+    
+}
+.left-side{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+    padding: 30px 10px;
+   
+}
+.texts{
+    color: #ffffff;
+    padding: 50px 0px;
+}
+.texts>h1{
+    margin: 30px 0px;
+}
+.texts>div{
+    margin: 20px 0px;
+    padding: 15px;
+    display: flex;
+    background: rgba(0, 0, 0, .2); 
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2);
+    border-radius: 10px;
+}
+.texts>div>div:nth-child(1)>img{
+    width: 80px;
+    margin-right: 20px;
+}
+
+form{
+    background-color: #ffffff;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    padding: 20px;
+   
+    border-radius: 6px;
+
+}
+form>input,form>select{
+    font-size: 16px;
+    color: #6d717e;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #212529;
+}
+#submit{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+form>h1{
+    text-align: center;
+    font-weight: lighter;
+    padding: 20px 0px;
+
+}
+form>p{
+    text-align: center;
+    font-weight: lighter;
+}
+ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background: url( https://assets.www.happyfox.com/img/check-list-icon.svg) no-repeat left center;
+}
