@@ -323,7 +323,12 @@ hr {
     background: rgba(0, 0, 0, .2);
     display: flex;
     padding: 50px 40px;
-    box-shadow: rgba(100, 100, 111, 0.2);
+    box-shadow: 0 10px 60px 0 #212529;
+    transition: all .5s ease;
+}
+.small-rect-box>div:hover{
+    box-shadow: 0 0 10px 0 #e6e6e6;
+    transform: translate(5px,-5px);   
 }
 
 .rectangle-box-icon {
@@ -393,9 +398,14 @@ hr {
     display: flex;
     padding: 50px 40px;
     border-radius: 5px;
-    box-shadow: rgba(100, 100, 111, 0.2);
+    box-shadow: 0 10px 60px 0 #e6e6e6;
+    transition: all .5s ease;
+   
 }
-
+.small-square-box>div:hover{
+    box-shadow: 0 0 10px 0 #e6e6e6;
+    transform: translate(5px,-5px); 
+}
 .white-box-icon {
     margin: 0px 10px;
 }
@@ -455,6 +465,12 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 10px 60px 0 #e6e6e6;
+    transition: all .5s ease;
+}
+.apps-icon>div:hover{
+    box-shadow: 0 0 10px 0 #e6e6e6;
+    transform: translate(5px,-5px); 
 }
 
 .circular-button {
