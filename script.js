@@ -1,7 +1,9 @@
-let navbar=document.getElementById("navDown")
-let navupp=document.getElementById("navUp")
+let navbar=document.querySelector(".navDown")
+console.log(navbar)
 window.onscroll=function(){
-    if(window.pageYOffset >= navDown.offsetTop){
+    console.log(window.pageYOffset , navbar.offsetTop)
+    if(window.pageYOffset > navbar.offsetTop){
+
         navbar.classList.add("sticky")
     } else{
         navbar.classList.remove("sticky")
