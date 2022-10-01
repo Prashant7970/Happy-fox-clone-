@@ -7,10 +7,11 @@ body {
     background-color: #f4f6f6;
     font-family: hero-new, sans-serif;
 }
-.navDown .sticky{
+ .sticky{
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
    
 
 
