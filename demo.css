@@ -62,9 +62,9 @@ form>input,form>select{
     font-weight: bolder;
 }
 #submit:hover{
+    color: #6d717e;
+    background-color: aqua;
     cursor: pointer;
-    background-color: white;
-    color: black;
 }
 form>h1{
     text-align: center;
