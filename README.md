@@ -16,3 +16,5 @@ To fight the monotony of replying to similar customer support queries, there’s
 Sennheiser, Hult Business School, Kindling App, Enchanting Travels, Metroland media are some of the companies that do great customer support by using Happyfox.
 
 HappyFox is owned by Tenmiles Technologies, the team behind the successful customer support on premise solution called Help Desk Pilot and online event registration service called DoAttend.
+<h1>Home page </h1>
+<img src="https://marketingplayer.com/wp-content/uploads/2022/02/1643895907-4." />
