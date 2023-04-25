@@ -7,9 +7,7 @@ Tech stack: HTML |CSS |JavaScript |
 HappyFox is a help desk ticketing system that is hosted on cloud, supporting multiple customer support channels like email, voice and live chat.
 HappyFox is a global help desk being rendered in 35 languages. To provide support on the move, HappyFox app is also available on iOS and Android mobile platforms.
 
-With differentiation coming from its
-
-focus on user experience and simplicity, HappyFox is used by thousands of successful companies of all sizes.
+With differentiation coming from its focus on user experience and simplicity, HappyFox is used by thousands of successful companies of all sizes.
 
 To fight the monotony of replying to similar customer support queries, there’s canned actions. To automate responses based on parameters, there’s Smart rules. Along with tags, advanced search and filters, HappyFox feature list simplifies actions for support agents. The power of integration with CRM, live-chat and accounting software, gives the edge of not having to toggle between multiple screens.
 
