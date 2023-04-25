@@ -2,7 +2,7 @@
 its a clone of https://www.happyfox.com/
 A cloud-based customer support software that provides helpdesk and ticketing solutions to businesses.
 An individual project executed in 4 days.
-Tech stack: HTML |CSS |JavaScript
+Tech stack: HTML |CSS |JavaScript |
 <h1>About Help Desk</h1>
 HappyFox is a help desk ticketing system that is hosted on cloud, supporting multiple customer support channels like email, voice and live chat. HappyFox is a global help desk being rendered in 35 languages. To provide support on the move, HappyFox app is also available on iOS and Android mobile platforms.
 
