@@ -23,6 +23,6 @@ HappyFox is owned by Tenmiles Technologies, the team behind the successful custo
 <img src="https://user-images.githubusercontent.com/95179001/221766040-d13c570b-f9d1-43e3-bf4a-3b1c7f739ebb.png" />
 
 <h1>Features  page </h1> 
-<img src="https://user-images.githubusercontent.com/95179001/221766346-02d0043f-222a-41ab-af98-a28022b122e7.png" />
+<img src="https://user-images.githubusercontent.com/95179001/221766346-02d0043f-222a-41ab-af98-a28022b122e7.png" />  
 
 
