@@ -19,7 +19,6 @@ HappyFox is owned by Tenmiles Technologies, the team behind the successful custo
 <h1>Home page </h1>
 <img src="https://www.helpspot.com/cdn-cgi/image/format=webp,fit=contain,width=1472/https://blog.helpspot.com/wp-content/uploads/2022/01/happyfox-homepage.png" />
 
-
 <h1>Login  page </h1>
 <img src="https://user-images.githubusercontent.com/95179001/221766040-d13c570b-f9d1-43e3-bf4a-3b1c7f739ebb.png" />
 
