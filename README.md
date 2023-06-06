@@ -1,4 +1,3 @@
-
 its a clone of https://www.happyfox.com/  
 A cloud-based customer support software that provides helpdesk and ticketing solutions to businesses.
 
