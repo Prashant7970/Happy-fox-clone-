@@ -3,6 +3,7 @@ A cloud-based customer support software that provides helpdesk and ticketing sol
 
 An individual project executed in 4 days.
 
+
 Tech stack: HTML | CSS | JavaScript   
 
 <h1>About Help Desk</h1>  
